@@ -72,14 +72,15 @@ calorieSubmit.addEventListener("click", function (event) {
 
 
 // Exercise Guide:
- //showExercise.addEventListener("click", function (event) {
-   //  const select = exerciseSelect.value;
-     //if (select != "none") {
-       //  let t=" select + ".svg";
-       // exercisePic.src = t;
-        //exercisePic.style = "background: #EBEBEB; padding: 2rem; border-radius: 16px; box-shadow: 0 0 4px #000";
-     //}
-showExercise.addEventListener("click", function(event) {
+ showExercise.addEventListener("click", function (event) {
+     const select = exerciseSelect.value;
+     if (select != "none") {
+        let t=" select + ".svg";
+        exercisePic.src = t;
+        exercisePic.style = "background: #EBEBEB; padding: 2rem; border-radius: 16px; box-shadow: 0 0 4px #000";
+     }
+});
+/*showExercise.addEventListener("click", function(event) {
     const select = document.getElementById("exercise-select").value;
     if (select !== "none") {
         let imagePath = select + ".svg"; // Corrected path and added '/' before the filename
@@ -90,5 +91,5 @@ showExercise.addEventListener("click", function(event) {
         document.getElementById("exercise-pic").style.boxShadow = "0 0 4px #000"; // Corrected style assignment
     }
 });
-
-// *****************
+*/
+//*****************
