@@ -1,0 +1,498 @@
+body
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding:0;
+        }
+        .header-image{
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            margin-right: 20px;
+        }
+        .header-image:hover{
+          transform: scale(1.1);
+          cursor: pointer;
+        }
+        header{
+            background-image : linear-gradient( #1bffff,#2e3192);
+            color: #fff;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #navbar-buttons {
+            display: flex;
+            justify-content: center;
+            flex-grow: 1;
+            font-size: 24px;
+            
+        }
+        .nav-button {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        .nav-button:hover {
+            color: #ffcc00;
+        }
+
+        .button-logo{
+            width: 60px;
+            height: 40px;
+            margin-left: 20px;
+            background-color:white;
+            border-radius: 4px;
+            font-size: larger;
+            text-decoration:none;
+            cursor: pointer;
+            color:black
+        }
+        .container{
+            display: block;
+            margin: auto;
+            width: 90%;
+           
+        }
+        #container3{
+            height:500px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            display:flex;
+            background-color:#ffa8B6;
+        }
+        .inner-container3-div2{
+            font-size: 25px;
+            line-height: 1.5;
+            font-weight: bold;
+            max-width: 50ch;
+            text-align: center;
+            padding-top: 80px;
+            color:white;
+        }
+        
+        .inner-container3,img{
+            margin-top: 15px;
+            margin-left: 20px;
+           border-top-left-radius: 20px;
+           border-bottom-left-radius: 20px;
+            height: 450px;
+        }
+
+     #lastdiv{
+        display: flex;
+            justify-content: space-around;
+            height: 350px;
+     }
+        .box {
+            width: 300px;
+            height:300px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+        .box:hover{
+           border: 2px solid black;
+           cursor: pointer;
+        }
+        #div1{
+            height: 500px;
+            background-image: url('https://c0.wallpaperflare.com/preview/684/378/389/athlete-barbell-body-bodybuilder.jpg');
+            background-position: center;
+            background-size: contain;
+            padding-top: 60px;
+            font-family: Georgia, serif;
+        }
+        #div1 h1{
+            font-size: 80px;
+            text-align: center;
+            color:#ffffff;
+        }
+        #div1 span{
+            color:rgb(0, 255, 0);
+        }
+
+        #div2{
+            height: 500px;
+            background-color:#9df9ef;
+        }
+        #div3{
+            height: 500px;
+            background-color:#edf756;
+        }
+        .container2{
+	width: 1000px;
+	margin:auto;
+}
+.row2{
+	display: flex;
+}
+ul{
+	list-style: none;
+}
+.footer1{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col2{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col2 h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+    margin-left: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col2 h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col2 ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col2 ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col2 ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col2 .social-links1 a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col2 .social-links1 a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.span1{
+    color:#ffecec;
+}
+  #fend{ 
+    font-weight: bold;
+            text-align: center;
+            height:40px;
+            background-color: white;
+        }
+        .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.show {display: block;}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+#dropdown1{
+   margin-right: 100px;
+}
+.form1 {
+  background-color: #fff;
+  height: 240px;
+  width: 450px;
+  border-radius: 20px;
+  margin: 20px auto 20px auto;
+  display: block;
+  border: solid 1px #289df6;
+  
+  box-shadow: 0 0 40px 0 #ddd;
+}
+
+.form1:hover {
+  box-shadow: 0 0 60px 0 #ccc;
+  transition: .4s;
+  transform: scale(1.02);
+}
+
+.row-one1 {
+  padding: 20px;
+}
+
+.row-two1 {
+  padding: 20px;
+}
+.text-input1 {
+  width: 60px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #dbeffe;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.text-input1:last-child {
+  margin-bottom: 35px;
+}
+
+.text-input1:hover {
+  background-color: #cbe7fd;
+}
+
+#submit1{
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  width: 140px;
+  background-color: #289df6;
+  color: #fff;
+  margin: auto;
+  display: block;
+  outline: none;
+  cursor: pointer;
+}
+
+#submit1:hover{
+  background-color: #0a8ef2;
+}
+
+.text1 {
+  display: inline-block;
+  margin: 5px 20px 5px 8px;;
+}
+
+.row-one1 {
+  padding: 30px 20px 15px 20px;
+}
+.row-two1 {
+  padding: 15px 20px 30px 20px;
+}
+
+.container1 {
+  display: inline-block;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.container1 input {
+  position: absolute;
+  opacity: 0;
+}
+
+.checkmark1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #dbeffe;
+  border-radius: 50%;
+}
+
+.container1:hover input ~ .checkmark1 {
+  background-color: #cbe7fd;
+}
+
+.container1 input:checked ~ .checkmark1 {
+  background-color: #289df6;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  text-align: center;
+  color: #289df6;
+  padding-top: 15px;
+  display: block;
+}
+
+h2 {
+  font-size: 22px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.h33 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding: 15px;
+}
+
+.h33 b {
+  font-size: 32px;
+  font-weight: 300;
+  color: #289df6;
+}
+
+.checkmark1:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container1 input:checked ~ .checkmark1:after {
+  display: block;
+}
+
+.container1 .checkmark1:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.div3-inner{
+    
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.div-box{
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 30px;
+    height:280px;
+    width: 340px;
+
+}
+.div-box:hover{
+    border: 1px solid black;
+    cursor: pointer;
+}
+.div3-inner a{
+    text-decoration: none;
+    color:black;
+}
+
+#fitness{
+  color:yellow;
+    text-decoration: underline;
+}
+.div-box img{
+    width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  object-fit: cover;
+  
+}
+.div-box > h2{
+    font-weight: bold;
+}
+
+
+.div3-h1{
+    font-weight: bold;
+    color:black;
+    font-size: 40px;
+}
+#div32-inner{
+     display: flex;
+     justify-content: space-evenly;
+}
+
+
+
+.main-faq-container{
+  display: block;
+  padding-left:130px;
+  background-color:#24262b;
+  
+  }
+  .accordion {
+  background-color: white;
+   color: rgba(0, 0, 0, 0.8); 
+  
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  }
+  
+  .accordion i {
+  font-size: 1.6rem;
+  }
+  
+  .active,
+  .accordion:hover {
+  background-color: #f1f7f5;
+  }
+  .pannel {
+  padding: 0 2rem 2.5rem 2rem;
+  background-color: white;
+  overflow: hidden;
+  background-color: #f1f7f5;
+  display: none;
+  }
+  .pannel p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+  }
+  
+  .faq {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+  color:black;
+  width: 1200px;
+  }
+  .faq.active {
+  border: none;
+  }
+  .wrapper {
+    display: block;
+    width: 1200px;
+    height: 100px;
+    background-color: lightgreen;
+    
+    }
+    .wrapper > h1 {
+    font-size: 60px;
+    margin: 1.5rem 0;
+    padding-top: 10px;
+    text-align: center;
+    color:black;
+    }
