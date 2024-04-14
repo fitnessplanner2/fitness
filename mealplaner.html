@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mealplanner</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="../css/mealplanner.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.0/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <h2>Meal Tracker</h2>
+    <div id="input">
+        <input type="radio"id="sugar" name="gender"value="Sugar">
+        <label for="sugar" id="sg">Sugar</label>
+        <input type="radio" name="gender" id="blp" value="Blood pressure">
+        <label for="blp" id="bp">Blood Pressure</label>
+        <br><br> 
+        <input type="number" id="bpInput" placeholder="Enter Your Data">
+        <button onclick="checkBloodPressure()">Check</button>
+        <button  id="download-button"onclick="generatePDF()">Download PDF</button>
+    </div>
+    <h2 id="heading1">Food Items Suitable for </h2>
+    <div id="foodTableContainer">
+        <table id="foodTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Nutrients</th>
+                </tr>
+            </thead>
+            <tbody id="foodBody">
+            </tbody>
+        </table>
+        <div id="chartsContainer">
+
+        </div>
+    </div> 
+                <script src="../javascript/meal.js"></script>
+</body>
+
+</html> 
