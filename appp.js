@@ -82,7 +82,7 @@ calorieSubmit.addEventListener("click", function (event) {
 showExercise.addEventListener("click", function(event) {
     const select = document.getElementById("exercise-select").value;
     if (select !== "none") {
-        let imagePath = "select + ".svg"; // Corrected path and added '/' before the filename
+        let imagePath = select + ".svg"; // Corrected path and added '/' before the filename
         document.getElementById("exercise-pic").src = imagePath;
         document.getElementById("exercise-pic").style.background = "#EBEBEB"; // Corrected style assignment
         document.getElementById("exercise-pic").style.padding = "2rem"; // Corrected style assignment
