@@ -25,6 +25,7 @@
 
 #image-logo {
     width: 65px;
+    border-radius:50%;
 }
 
 #image-mealPlanner {
