@@ -75,45 +75,6 @@ label {
     font-weight: bold;
 }
 
-.contact {
-    background-color: rgb(107, 210, 203);
-}
-
-input {
-    background-color: rgb(84, 172, 166);
-    border-color: rgb(84, 172, 166);
-    ;
-}
-
-textarea {
-    background-color: rgb(84, 172, 166);
-}
-
-.learn-more:hover {
-    background-color: rgb(101, 219, 219);
-    transition: transform 0.7s;
-}
-.navdiv{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-li{
-    list-style: none;
-    display: inline-block;
-}
-li a{
-    margin-right: 25px;
-}
-.contact{
-     height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.table-content{
-    bottom: 50px;
-}
 /* nav{
     width: 83%;
     height:70px;
@@ -157,12 +118,87 @@ nav li a:hover{
     position: relative;
     top:10px;
 } */
-.contact-button{
-    background-color:rgb(107, 210, 203);
+container2{
+    width: 1000px;
+    margin:auto;
+    }
+    .row2{
+    display: flex;
+    }
+    ul{
+    list-style: none;
+    }
+    .footer1{
+    background-color: #24262b;
+    padding: 70px 0;
+    }
+    .footer-col2{
+    width: 25%;
+    padding: 0 15px;
+    }
+    .footer-col2 h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    margin-left: 35px;
+    font-weight: 500;
     position: relative;
-    left:120px;
-    border-radius: 5px;
-}
+    }
+    .footer-col2 h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+    }
+    .footer-col2 ul li:not(:last-child){
+    margin-bottom: 10px;
+    }
+    .footer-col2 ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    }
+    .footer-col2 ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+    }
+    .footer-col2 .social-links1 a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    }
+    .footer-col2 .social-links1 a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+    }
+    .span1{
+    color:#ffecec;
+    }
+    
+    .footer-end
+    { 
+        font-weight: bold;
+        text-align: center;
+        height:40px;
+        background-color: white;
+    }
 .header-image{
     border-radius: 50%;
     width: 60px;
