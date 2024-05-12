@@ -114,14 +114,14 @@ li a{
 .table-content{
     bottom: 50px;
 }
-nav{
+/* nav{
     width: 83%;
     height:70px;
     line-height: 75px;
     padding: 0px 100px;
     background-image: linear-gradient(#137390,#275c6d);
-}
-nav .logo a{
+} */
+/* nav .logo a{
     font-size: 30px;
     font-weight: bold;
     float: left;
@@ -129,8 +129,8 @@ nav .logo a{
     text-transform: uppercase;
     letter-spacing: 1.5px;
     cursor: pointer;
-}
-nav ul{
+} */
+/* nav ul{
     position: relative;
     float:right;
     bottom: 15px;
@@ -139,8 +139,8 @@ nav li{
     display: inline-block;
     list-style: none;
 
-}
-nav li a{
+} */
+/* nav li a{
     font-size: 18px;
     text-transform: uppercase;
     padding:0px 30px;
@@ -150,12 +150,58 @@ nav li a{
 nav li a:hover{
     color:#ff8c69;
     transition: all 0.4s ease 0s;
-}
-.logo img{
+} */
+/* .logo img{
     display: inline-block;
     border-radius: 30px;
     position: relative;
     top:10px;
+} */
+.contact-button{
+    background-color:rgb(107, 210, 203);
+    position: relative;
+    left:120px;
+    border-radius: 5px;
+}
+.header-image{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+}
+.header-image:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}
+header{
+    background-image : linear-gradient( #1bffff,#2e3192);
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar-buttons {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 24px;
+    
+}
+.nav-button {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav-button:hover {
+    color: #ffcc00;
+}body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding:0;
 }
 .contact-button{
     background-color:rgb(107, 210, 203);
